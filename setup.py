@@ -12,7 +12,7 @@ classifiers = ['Development Status :: 4 - Beta',
                'Topic :: System :: Hardware']
 
 setup(name              = 'Adafruit_MCP3008',
-      version           = '1.0.0',
+      version           = '1.0.1',
       author            = 'Tony DiCola',
       author_email      = 'tdicola@adafruit.com',
       description       = 'Python code to use the MCP3008 analog to digital converter with a Raspberry Pi or BeagleBone black.',
