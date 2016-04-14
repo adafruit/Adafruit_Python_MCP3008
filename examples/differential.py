@@ -23,7 +23,7 @@ mcp = Adafruit_MCP3008.MCP3008(spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE))
 
 print('Press Ctrl-C to quit...')
 while True:
-    # Grad the difference between channel 0 and 1 (i.e. channel 0 minus 1).
+    # Grab the difference between channel 0 and 1 (i.e. channel 0 minus 1).
     # Note you can specify any value in 0-7 to grab other differences:
     #  - 0: Return channel 0 minus channel 1
     #  - 1: Return channel 1 minus channel 0
