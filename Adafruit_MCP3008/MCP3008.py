@@ -41,7 +41,7 @@ class MCP3008(object):
                 gpio = GPIO.get_platform_gpio()
             self._spi = SPI.BitBang(gpio, clk, mosi, miso, cs)
         else:
-            raise ValueError('Must specify either spi for for hardware SPI or clk, cs, miso, and mosi for softwrare SPI!')
+            raise ValueError('Must specify either spi for for hardware SPI or clk, cs, miso, and mosi for software SPI!')
         self._spi.set_clock_hz(1000000)
         self._spi.set_mode(0)
         self._spi.set_bit_order(SPI.MSBFIRST)
